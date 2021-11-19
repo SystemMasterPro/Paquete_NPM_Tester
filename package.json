@@ -1,0 +1,20 @@
+{
+  "name": "one-package-tester-npm-messages",
+  "version": "1.0.0",
+  "description": "Construccion Paquete para Node",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "node",
+    "package"
+  ],
+  "author": "Richardeveloper",
+  "license": "MIT",
+  "bin":{
+    "random-msg":"./bin/global.js"
+  },
+  "preferGlobal": true
+}
